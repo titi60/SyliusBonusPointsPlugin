@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Titi60\SyliusBonusPointsPlugin\Calculator;
+namespace Titi60SyliusBonusPointsPlugin\Calculator;
 
-use Titi60\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
-use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
+use Titi60SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Registry\ServiceRegistryInterface;
 
@@ -29,7 +29,6 @@ final class DelegatingBonusPointsStrategyCalculator implements DelegatingBonusPo
     {
         /** @var BonusPointsStrategyCalculatorInterface $calculator */
         $calculator = $this->registry->get((string) $bonusPointsStrategy->getCalculatorType());
-
         $product = $subject->getProduct();
 
         if (null === $product) {

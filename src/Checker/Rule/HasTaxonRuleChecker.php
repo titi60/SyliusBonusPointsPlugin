@@ -25,7 +25,7 @@ final class HasTaxonRuleChecker implements BonusPointsStrategyRuleCheckerInterfa
     public function isEligible(OrderItemInterface $orderItem, array $configuration): bool
     {
         Assert::keyExists($configuration, 'taxons');
-
+        $product = $orderItem->getProduct();
         /** @var TaxonInterface[] $taxons */
         $taxons = $this->taxonRepository->findBy(['code' => $configuration['taxons']]);
 

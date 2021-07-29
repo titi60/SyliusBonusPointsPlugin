@@ -23,6 +23,7 @@ final class BonusPointsStrategyRulesEligibilityChecker implements BonusPointsStr
 
     public function isEligible(OrderItemInterface $orderItem, BonusPointsStrategyInterface $bonusPointsStrategy): bool
     {
+        $product = $orderItem->getProduct();
         if (!$bonusPointsStrategy->hasRules()) {
             return false;
         }
@@ -38,6 +39,7 @@ final class BonusPointsStrategyRulesEligibilityChecker implements BonusPointsStr
 
     private function isEligibleToRule(OrderItemInterface $orderItem, BonusPointsStrategyRuleInterface $rule): bool
     {
+        $product = $orderItem->getProduct();
         /** @var BonusPointsStrategyRuleCheckerInterface $checker */
         $checker = $this->ruleRegistry->get((string) $rule->getType());
 
