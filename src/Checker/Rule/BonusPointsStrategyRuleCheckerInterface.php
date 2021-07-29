@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Titi60\SyliusBonusPointsPlugin\Checker\Rule;
-
+namespace Titi60SyliusBonusPointsPlugin\Checker\Rule;
+use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 
 interface BonusPointsStrategyRuleCheckerInterface
 {
-    public function isEligible(ProductInterface $product, array $configuration): bool;
+    public function isEligible(OrderItemInterface $orderItem, array $configuration): bool;
 }

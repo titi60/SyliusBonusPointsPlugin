@@ -2,12 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Titi60\SyliusBonusPointsPlugin\Checker\Rule;
+namespace Titi60SyliusBonusPointsPlugin\Checker\Rule;
 
 use Sylius\Component\Core\Model\ProductInterface;
 use Sylius\Component\Core\Model\TaxonInterface;
 use Sylius\Component\Taxonomy\Repository\TaxonRepositoryInterface;
 use Webmozart\Assert\Assert;
+use Sylius\Component\Core\Model\OrderItemInterface;
 
 final class HasTaxonRuleChecker implements BonusPointsStrategyRuleCheckerInterface
 {
@@ -21,7 +22,7 @@ final class HasTaxonRuleChecker implements BonusPointsStrategyRuleCheckerInterfa
         $this->taxonRepository = $taxonRepository;
     }
 
-    public function isEligible(ProductInterface $product, array $configuration): bool
+    public function isEligible(OrderItemInterface $orderItem, array $configuration): bool
     {
         Assert::keyExists($configuration, 'taxons');
 
