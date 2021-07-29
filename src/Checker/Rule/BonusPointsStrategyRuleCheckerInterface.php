@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Titi60SyliusBonusPointsPlugin\Checker\Rule;
+namespace Titi60\SyliusBonusPointsPlugin\Checker\Rule;
 use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 

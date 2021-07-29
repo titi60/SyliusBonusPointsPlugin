@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Titi60SyliusBonusPointsPlugin\Calculator;
+namespace Titi60\SyliusBonusPointsPlugin\Calculator;
 
-use Titi60SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
-use Titi60SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Registry\ServiceRegistryInterface;
 
