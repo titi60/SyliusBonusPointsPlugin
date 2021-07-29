@@ -4,7 +4,7 @@
     <services>
         <defaults public="true" />
 
-        <service id="bitbag_sylius_bonus_points.purifier.order_bonus_points" class="BitBag\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifier">
+        <service id="bitbag_sylius_bonus_points.purifier.order_bonus_points" class="Titi60\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifier">
             <argument type="service" id="bitbag_sylius_bonus_points.context.customer_bonus_points" />
             <argument type="service" id="doctrine.orm.entity_manager" />
         </service>

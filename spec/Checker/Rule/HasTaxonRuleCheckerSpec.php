@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Checker\Rule;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Checker\Rule;
 
-use BitBag\SyliusBonusPointsPlugin\Checker\Rule\BonusPointsStrategyRuleCheckerInterface;
-use BitBag\SyliusBonusPointsPlugin\Checker\Rule\HasTaxonRuleChecker;
+use Titi60\SyliusBonusPointsPlugin\Checker\Rule\BonusPointsStrategyRuleCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Checker\Rule\HasTaxonRuleChecker;
 use Doctrine\Common\Collections\ArrayCollection;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Checker\Eligibility;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Checker\Eligibility;
 
-use BitBag\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
-use BitBag\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyRulesEligibilityChecker;
-use BitBag\SyliusBonusPointsPlugin\Checker\Rule\BonusPointsStrategyRuleCheckerInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
+use Titi60\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyRulesEligibilityChecker;
+use Titi60\SyliusBonusPointsPlugin\Checker\Rule\BonusPointsStrategyRuleCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\OrderItemInterface;

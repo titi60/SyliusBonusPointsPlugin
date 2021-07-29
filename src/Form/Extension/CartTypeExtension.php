@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Form\Extension;
+namespace Titi60\SyliusBonusPointsPlugin\Form\Extension;
 
-use BitBag\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
-use BitBag\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
-use BitBag\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsApply;
+use Titi60\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
+use Titi60\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
+use Titi60\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsApply;
 use Sylius\Bundle\MoneyBundle\Form\Type\MoneyType;
 use Sylius\Bundle\OrderBundle\Form\Type\CartType;
 use Sylius\Component\Core\Model\OrderInterface;

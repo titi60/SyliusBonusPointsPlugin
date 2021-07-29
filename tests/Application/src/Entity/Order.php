@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Entity;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Entity;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareTrait;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareTrait;
 use Sylius\Component\Core\Model\Order as BaseOrder;
 use Sylius\Component\Core\Model\OrderInterface;
 

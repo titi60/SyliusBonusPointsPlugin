@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Entity;
+namespace Titi60\SyliusBonusPointsPlugin\Entity;
 
 use Doctrine\Common\Collections\Collection;
 use Sylius\Component\Resource\Model\CodeAwareInterface;

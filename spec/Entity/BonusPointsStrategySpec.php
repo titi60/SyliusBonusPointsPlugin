@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Entity;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Entity;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategy;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategy;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
 use PhpSpec\ObjectBehavior;
 
 final class BonusPointsStrategySpec extends ObjectBehavior

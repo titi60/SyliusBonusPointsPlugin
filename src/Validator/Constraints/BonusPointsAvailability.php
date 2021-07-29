@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Validator\Constraints;
+namespace Titi60\SyliusBonusPointsPlugin\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 

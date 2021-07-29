@@ -7,7 +7,7 @@
         </parameter>
     </parameters>
     <services>
-        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy" class="BitBag\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyType">
+        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy" class="Titi60\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyType">
             <argument>%bitbag_sylius_bonus_points.model.bonus_points_strategy.class%</argument>
             <argument>%bitbag.form.type.validation_groups%</argument>
             <argument type="service" id="bitbag_sylius_bonus_points.registry.bonus_points_strategy_calculator" />
@@ -15,43 +15,43 @@
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_rule" class="BitBag\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyRuleType">
+        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_rule" class="Titi60\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyRuleType">
             <argument>%bitbag_sylius_bonus_points.model.bonus_points_strategy_rule.class%</argument>
             <argument>%bitbag.form.type.validation_groups%</argument>
             <argument type="service" id="bitbag_sylius_bonus_points.form_registry.bonus_points_strategy_rule_checker" />
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_rule_choice" class="BitBag\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyRuleChoiceType">
+        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_rule_choice" class="Titi60\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyRuleChoiceType">
             <argument>%bitbag.bonus_points_strategy_rules%</argument>
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_calculator_choice" class="BitBag\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyCalculatorChoiceType">
+        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_calculator_choice" class="Titi60\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyCalculatorChoiceType">
             <argument>%bitbag.bonus_points_strategy_calculators%</argument>
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.channel_based_bonus_points_strategy_calculator.channel_based_per_order_item_percentage" class="BitBag\SyliusBonusPointsPlugin\Form\Type\Calculator\ChannelBasedPerOrderItemPercentageConfigurationType">
+        <service id="bitbag_sylius_bonus_points.form.type.channel_based_bonus_points_strategy_calculator.channel_based_per_order_item_percentage" class="Titi60\SyliusBonusPointsPlugin\Form\Type\Calculator\ChannelBasedPerOrderItemPercentageConfigurationType">
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.calculator.per_order_price" class="BitBag\SyliusBonusPointsPlugin\Form\Type\Calculator\PerOrderPriceConfigurationType">
+        <service id="bitbag_sylius_bonus_points.form.type.calculator.per_order_price" class="Titi60\SyliusBonusPointsPlugin\Form\Type\Calculator\PerOrderPriceConfigurationType">
             <argument type="service" id="sylius.context.channel" />
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_rule_collection" class="BitBag\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyRuleCollectionType">
+        <service id="bitbag_sylius_bonus_points.form.type.bonus_points_strategy_rule_collection" class="Titi60\SyliusBonusPointsPlugin\Form\Type\BonusPointsStrategyRuleCollectionType">
             <argument type="service" id="bitbag_sylius_bonus_points.registry_bonus_points_strategy_rule_checker" />
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.type.rule.has_taxon_configuration" class="BitBag\SyliusBonusPointsPlugin\Form\Type\Rule\HasTaxonConfigurationType">
+        <service id="bitbag_sylius_bonus_points.form.type.rule.has_taxon_configuration" class="Titi60\SyliusBonusPointsPlugin\Form\Type\Rule\HasTaxonConfigurationType">
             <argument type="service" id="sylius.form.type.data_transformer.taxons_to_codes" />
             <tag name="form.type" />
         </service>
 
-        <service id="bitbag_sylius_bonus_points.form.extension.type.cart" class="BitBag\SyliusBonusPointsPlugin\Form\Extension\CartTypeExtension">
+        <service id="bitbag_sylius_bonus_points.form.extension.type.cart" class="Titi60\SyliusBonusPointsPlugin\Form\Extension\CartTypeExtension">
             <argument type="service" id="bitbag_sylius_bonus_points.context.customer_bonus_points" />
             <argument type="service" id="bitbag_sylius_bonus_points.resolver.bonus_points" />
             <argument type="service" id="sylius.context.cart" />

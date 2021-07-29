@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Form\Type;
+namespace Titi60\SyliusBonusPointsPlugin\Form\Type;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
 use Sylius\Bundle\ResourceBundle\Form\Registry\FormTypeRegistryInterface;
 use Sylius\Bundle\ResourceBundle\Form\Type\AbstractResourceType;
 use Symfony\Component\Form\FormBuilderInterface;

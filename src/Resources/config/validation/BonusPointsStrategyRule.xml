@@ -4,7 +4,7 @@
                     xsi:schemaLocation="http://symfony.com/schema/dic/constraint-mapping
         https://symfony.com/schema/dic/constraint-mapping/constraint-mapping-1.0.xsd">
 
-    <class name="BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRule">
+    <class name="Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRule">
         <property name="configuration">
             <constraint name="Valid" />
         </property>

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Entity;
+namespace Titi60\SyliusBonusPointsPlugin\Entity;
 
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Resource\Model\TimestampableTrait;

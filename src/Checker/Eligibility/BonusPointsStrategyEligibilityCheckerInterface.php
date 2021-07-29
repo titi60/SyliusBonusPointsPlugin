@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Checker\Eligibility;
+namespace Titi60\SyliusBonusPointsPlugin\Checker\Eligibility;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 
 interface BonusPointsStrategyEligibilityCheckerInterface

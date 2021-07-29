@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Calculator;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Calculator;
 
-use BitBag\SyliusBonusPointsPlugin\Calculator\BonusPointsStrategyCalculatorInterface;
-use BitBag\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
+use Titi60\SyliusBonusPointsPlugin\Calculator\BonusPointsStrategyCalculatorInterface;
+use Titi60\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Calculator;
+namespace Titi60\SyliusBonusPointsPlugin\Calculator;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;
 
 interface DelegatingBonusPointsStrategyCalculatorInterface

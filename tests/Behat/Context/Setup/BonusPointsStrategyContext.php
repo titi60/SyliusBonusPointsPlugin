@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Behat\Context\Setup;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Behat\Context\Setup;
 
 use Behat\Behat\Context\Context;
-use BitBag\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
-use BitBag\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
+use Titi60\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
+use Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
 use Doctrine\Persistence\ObjectManager;
 use Sylius\Behat\Service\SharedStorageInterface;
 use Sylius\Component\Core\Model\ChannelInterface;

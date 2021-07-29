@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\OrderProcessing;
+namespace spec\Titi60\SyliusBonusPointsPlugin\OrderProcessing;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\OrderProcessing\OrderBonusPointsProcessor;
-use BitBag\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\OrderProcessing\OrderBonusPointsProcessor;
+use Titi60\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Order\Factory\AdjustmentFactoryInterface;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Tests\BitBag\SyliusBonusPointsPlugin\Entity\Order;
+use Tests\Titi60\SyliusBonusPointsPlugin\Entity\Order;
 
 final class OrderBonusPointsProcessorSpec extends ObjectBehavior
 {

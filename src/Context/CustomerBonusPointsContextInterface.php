@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Context;
+namespace Titi60\SyliusBonusPointsPlugin\Context;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
 
 interface CustomerBonusPointsContextInterface
 {

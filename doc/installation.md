@@ -10,8 +10,8 @@
     ```php
         return [
          ...
-        
-            BitBag\SyliusBonusPointsPlugin\BitBagSyliusBonusPointsPlugin::class => ['all' => true],
+
+            Titi60\SyliusBonusPointsPlugin\BitBagSyliusBonusPointsPlugin::class => ['all' => true],
         ];
     ```
 
@@ -19,18 +19,18 @@
 
     ```yaml
     # config/packages/bitbag_sylius_bonus_points_plugin.yaml
-    
+
     imports:
        - { resource: "@BitBagSyliusBonusPointsPlugin/Resources/config/config.yml" }
-    ```    
+    ```
 
 1. Import routing in your `config/routes.yaml` file:
 
     ```yaml
-    
+
     # config/routes.yaml
     ...
-    
+
     bitbag_sylius_bonus_points_plugin:
         resource: "@BitBagSyliusBonusPointsPlugin/Resources/config/routing.yml"
     ```
@@ -38,14 +38,14 @@
 1. Extend `Order`(including Doctrine mapping):
 
     ```php
-    <?php 
-   
+    <?php
+
    declare(strict_types=1);
-    
+
     namespace App\Entity\Order;
-    
-    use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
-    use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareTrait;
+
+    use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
+    use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareTrait;
     use Sylius\Component\Core\Model\Order as BaseOrder;
 
     class Order extends BaseOrder implements BonusPointsAwareInterface

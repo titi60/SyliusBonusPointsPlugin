@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Entity;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Entity;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPoints;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPoints;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\OrderInterface;
 

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Validator\Constraints;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Validator\Constraints;
 
-use BitBag\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
-use BitBag\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
-use BitBag\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
-use BitBag\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsApply;
-use BitBag\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsApplyValidator;
+use Titi60\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
+use Titi60\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
+use Titi60\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsApply;
+use Titi60\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsApplyValidator;
 use Doctrine\Common\Collections\ArrayCollection;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\OrderInterface;

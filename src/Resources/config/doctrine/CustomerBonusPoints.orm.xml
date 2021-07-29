@@ -4,7 +4,7 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                                       http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <mapped-superclass name="BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints" table="bitbag_customer_bonus_points">
+    <mapped-superclass name="Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints" table="bitbag_customer_bonus_points">
         <id name="id" type="integer">
             <generator strategy="AUTO"/>
         </id>
@@ -13,7 +13,7 @@
             <join-column name="customer_id" referenced-column-name="id" nullable="false" />
         </many-to-one>
 
-        <many-to-many field="bonusPoints" target-entity="BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface">
+        <many-to-many field="bonusPoints" target-entity="Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface">
             <join-table name="bitbag_bonus_points_customer">
                 <join-columns>
                     <join-column name="bonus_points_customer_id" referenced-column-name="id" nullable="false" on-delete="CASCADE" />
@@ -24,7 +24,7 @@
             </join-table>
         </many-to-many>
 
-        <many-to-many field="bonusPointsUsed" target-entity="BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface">
+        <many-to-many field="bonusPointsUsed" target-entity="Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface">
             <join-table name="bitbag_bonus_points_used_customer">
                 <join-columns>
                     <join-column name="bonus_points_customer_id" referenced-column-name="id" nullable="false" on-delete="CASCADE" />

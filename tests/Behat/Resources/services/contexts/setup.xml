@@ -9,7 +9,7 @@
         <defaults public="true" />
 
         <service id="bitbag_sylius_bonus_points_plugin.behat.context.setup.bonus_points_strategy"
-                 class="Tests\BitBag\SyliusBonusPointsPlugin\Behat\Context\Setup\BonusPointsStrategyContext">
+                 class="Tests\Titi60\SyliusBonusPointsPlugin\Behat\Context\Setup\BonusPointsStrategyContext">
             <argument type="service" id="bitbag_sylius_bonus_points.factory.bonus_points_strategy" />
             <argument type="service" id="bitbag_sylius_bonus_points.factory.bonus_points_strategy_rule" />
             <argument type="service" id="sylius.behat.shared_storage" />

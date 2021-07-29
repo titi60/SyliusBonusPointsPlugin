@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Behat\Page\Admin\BonusPointsStrategy;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Behat\Page\Admin\BonusPointsStrategy;
 
 use Behat\Mink\Element\NodeElement;
 use Sylius\Behat\Page\Admin\Crud\CreatePage as BaseCreatePage;
 use Sylius\Behat\Service\AutocompleteHelper;
-use Tests\BitBag\SyliusBonusPointsPlugin\Behat\Behaviour\ContainsErrorTrait;
+use Tests\Titi60\SyliusBonusPointsPlugin\Behat\Behaviour\ContainsErrorTrait;
 use Webmozart\Assert\Assert;
 
 class CreatePage extends BaseCreatePage implements CreatePageInterface

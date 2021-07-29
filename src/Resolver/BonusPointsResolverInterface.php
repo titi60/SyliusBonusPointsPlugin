@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Resolver;
+namespace Titi60\SyliusBonusPointsPlugin\Resolver;
 
 use Sylius\Component\Core\Model\Customer;
 use Sylius\Component\Core\Model\OrderInterface;

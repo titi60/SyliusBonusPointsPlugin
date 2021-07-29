@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Assigner;
+namespace Titi60\SyliusBonusPointsPlugin\Assigner;
 
-use BitBag\SyliusBonusPointsPlugin\Calculator\DelegatingBonusPointsStrategyCalculatorInterface;
-use BitBag\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
+use Titi60\SyliusBonusPointsPlugin\Calculator\DelegatingBonusPointsStrategyCalculatorInterface;
+use Titi60\SyliusBonusPointsPlugin\Checker\Eligibility\BonusPointsStrategyEligibilityCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
 use function count;
 use DateTime;
 use Doctrine\ORM\EntityManagerInterface;

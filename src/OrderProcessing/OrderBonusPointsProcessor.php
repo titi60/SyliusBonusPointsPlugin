@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\OrderProcessing;
+namespace Titi60\SyliusBonusPointsPlugin\OrderProcessing;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
 use Sylius\Component\Order\Factory\AdjustmentFactoryInterface;
 use Sylius\Component\Order\Model\OrderInterface;
 use Sylius\Component\Order\Processor\OrderProcessorInterface;

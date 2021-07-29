@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Repository;
+namespace Titi60\SyliusBonusPointsPlugin\Repository;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints;
+use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints;
 use Sylius\Bundle\ResourceBundle\Doctrine\ORM\EntityRepository;
 use Sylius\Component\Customer\Model\CustomerInterface;
 

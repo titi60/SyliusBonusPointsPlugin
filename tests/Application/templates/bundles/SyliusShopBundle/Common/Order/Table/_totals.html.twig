@@ -1,6 +1,6 @@
 {% import "@SyliusShop/Common/Macro/money.html.twig" as money %}
 
-{% set bonusPointsAdjustment = constant('BitBag\\SyliusBonusPointsPlugin\\Entity\\AdjustmentInterface::ORDER_BONUS_POINTS_ADJUSTMENT') %}
+{% set bonusPointsAdjustment = constant('Titi60\\SyliusBonusPointsPlugin\\Entity\\AdjustmentInterface::ORDER_BONUS_POINTS_ADJUSTMENT') %}
 
 {% set bonusPointsTotal = order.getAdjustmentsTotal(bonusPointsAdjustment) %}
 

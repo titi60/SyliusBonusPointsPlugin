@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\EventListener;
+namespace Titi60\SyliusBonusPointsPlugin\EventListener;
 
-use BitBag\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
 use Sylius\Bundle\ResourceBundle\Doctrine\ORM\EntityRepository;
 use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
 use Sylius\Component\Core\Model\OrderInterface;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Behat\Page\Shop\Cart;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Behat\Page\Shop\Cart;
 
 use Sylius\Behat\Page\Shop\Cart\SummaryPageInterface;
-use Tests\BitBag\SyliusBonusPointsPlugin\Behat\Behaviour\ContainsErrorInterface;
+use Tests\Titi60\SyliusBonusPointsPlugin\Behat\Behaviour\ContainsErrorInterface;
 
 interface CartPageInterface extends SummaryPageInterface, ContainsErrorInterface
 {

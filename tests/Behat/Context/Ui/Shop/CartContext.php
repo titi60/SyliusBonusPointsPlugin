@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Behat\Context\Ui\Shop;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Behat\Context\Ui\Shop;
 
 use Behat\Behat\Context\Context;
-use Tests\BitBag\SyliusBonusPointsPlugin\Behat\Page\Shop\Cart\CartPageInterface;
+use Tests\Titi60\SyliusBonusPointsPlugin\Behat\Page\Shop\Cart\CartPageInterface;
 use Webmozart\Assert\Assert;
 
 final class CartContext implements Context

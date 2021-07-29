@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin;
+namespace Titi60\SyliusBonusPointsPlugin;
 
-use BitBag\SyliusBonusPointsPlugin\DependencyInjection\Compiler\RegisterBonusPointsStrategyCalculatorsPass;
-use BitBag\SyliusBonusPointsPlugin\DependencyInjection\Compiler\RegisterBonusPointsStrategyRuleCheckerPass;
+use Titi60\SyliusBonusPointsPlugin\DependencyInjection\Compiler\RegisterBonusPointsStrategyCalculatorsPass;
+use Titi60\SyliusBonusPointsPlugin\DependencyInjection\Compiler\RegisterBonusPointsStrategyRuleCheckerPass;
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

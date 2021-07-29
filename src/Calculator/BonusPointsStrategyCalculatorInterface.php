@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Calculator;
+namespace Titi60\SyliusBonusPointsPlugin\Calculator;
 
 interface BonusPointsStrategyCalculatorInterface
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Context;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Context;
 
-use BitBag\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContext;
-use BitBag\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContext;
+use Titi60\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\Component\Customer\Context\CustomerContextInterface;

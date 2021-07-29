@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Checker\Rule;
+namespace Titi60\SyliusBonusPointsPlugin\Checker\Rule;
 
 use Sylius\Component\Core\Model\ProductInterface;
 

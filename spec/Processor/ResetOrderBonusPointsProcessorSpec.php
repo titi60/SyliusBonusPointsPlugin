@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Processor;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Processor;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Processor\ResetOrderBonusPointsProcessor;
-use BitBag\SyliusBonusPointsPlugin\Processor\ResetOrderBonusPointsProcessorInterface;
-use BitBag\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Processor\ResetOrderBonusPointsProcessor;
+use Titi60\SyliusBonusPointsPlugin\Processor\ResetOrderBonusPointsProcessorInterface;
+use Titi60\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
-use Tests\BitBag\SyliusBonusPointsPlugin\Entity\Order;
+use Tests\Titi60\SyliusBonusPointsPlugin\Entity\Order;
 
 final class ResetOrderBonusPointsProcessorSpec extends ObjectBehavior
 {

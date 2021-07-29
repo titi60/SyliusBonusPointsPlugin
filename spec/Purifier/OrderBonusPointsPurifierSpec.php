@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Purifier;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Purifier;
 
-use BitBag\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifier;
-use BitBag\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
+use Titi60\SyliusBonusPointsPlugin\Context\CustomerBonusPointsContextInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\AdjustmentInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifier;
+use Titi60\SyliusBonusPointsPlugin\Purifier\OrderBonusPointsPurifierInterface;
 use Doctrine\Persistence\ObjectManager;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\CustomerInterface;

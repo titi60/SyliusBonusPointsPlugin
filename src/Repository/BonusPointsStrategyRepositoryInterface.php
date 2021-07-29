@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Repository;
+namespace Titi60\SyliusBonusPointsPlugin\Repository;
 
 use Sylius\Component\Resource\Repository\RepositoryInterface;
 

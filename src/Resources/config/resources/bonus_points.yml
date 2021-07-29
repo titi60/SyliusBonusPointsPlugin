@@ -3,6 +3,6 @@ sylius_resource:
         bitbag_sylius_bonus_points.bonus_points:
             driver: doctrine/orm
             classes:
-                model: BitBag\SyliusBonusPointsPlugin\Entity\BonusPoints
-                interface: BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface
-                repository: BitBag\SyliusBonusPointsPlugin\Repository\BonusPointsRepository
+                model: Titi60\SyliusBonusPointsPlugin\Entity\BonusPoints
+                interface: Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface
+                repository: Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsRepository

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Entity;
+namespace Titi60\SyliusBonusPointsPlugin\Entity;
 
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;

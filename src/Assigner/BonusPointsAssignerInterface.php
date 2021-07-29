@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Assigner;
+namespace Titi60\SyliusBonusPointsPlugin\Assigner;
 
 use Sylius\Component\Core\Model\OrderInterface;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Validator\Constraints;
+namespace Titi60\SyliusBonusPointsPlugin\Validator\Constraints;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
-use BitBag\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsInterface;
+use Titi60\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
 use Symfony\Component\Validator\Constraint;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Behat\Page\Admin\BonusPointsStrategy;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Behat\Page\Admin\BonusPointsStrategy;
 
 use Sylius\Behat\Page\Admin\Crud\CreatePageInterface as BaseCreatePageInterface;
-use Tests\BitBag\SyliusBonusPointsPlugin\Behat\Behaviour\ContainsErrorInterface;
+use Tests\Titi60\SyliusBonusPointsPlugin\Behat\Behaviour\ContainsErrorInterface;
 
 interface CreatePageInterface extends BaseCreatePageInterface, ContainsErrorInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\BitBag\SyliusBonusPointsPlugin\Behat\Page\Shop\Checkout;
+namespace Tests\Titi60\SyliusBonusPointsPlugin\Behat\Page\Shop\Checkout;
 
 use Sylius\Behat\Page\Shop\Checkout\CompletePage as BaseCompletePage;
 

@@ -1,5 +1,5 @@
 {
-  "name": "titi60/bonus-points-plugin",
+  "name": "Titi60\/bonus-points-plugin",
   "type": "sylius-plugin",
   "keywords": [
     "sylius",
@@ -26,7 +26,7 @@
     "friends-of-behat/variadic-extension": "^1.3",
     "lakion/mink-debug-extension": "^2.0.0",
     "phpspec/phpspec": "^7.0",
-    "phpstan/extension-installer": "^1.0",   
+    "phpstan/extension-installer": "^1.0",
     "phpstan/phpstan": "0.12.90",
     "phpstan/phpstan-doctrine": "0.12.39",
     "phpstan/phpstan-strict-rules": "^0.12.0",
@@ -44,8 +44,8 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "BitBag\\SyliusBonusPointsPlugin\\": "src/",
-      "Tests\\BitBag\\SyliusBonusPointsPlugin\\": [
+      "Titi60\\SyliusBonusPointsPlugin\\": "src/",
+      "Tests\\Titi60\\SyliusBonusPointsPlugin\\": [
         "tests/",
         "tests/Application/src"
       ]

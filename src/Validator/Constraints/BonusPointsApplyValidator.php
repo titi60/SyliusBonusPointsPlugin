@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Validator\Constraints;
+namespace Titi60\SyliusBonusPointsPlugin\Validator\Constraints;
 
-use BitBag\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
-use BitBag\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
+use Titi60\SyliusBonusPointsPlugin\Calculator\PerOrderPriceCalculator;
+use Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsStrategyRepositoryInterface;
 use Sylius\Component\Order\Context\CartContextInterface;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;

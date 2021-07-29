@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace spec\BitBag\SyliusBonusPointsPlugin\Validator\Constraints;
+namespace spec\Titi60\SyliusBonusPointsPlugin\Validator\Constraints;
 
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
-use BitBag\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
-use BitBag\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsAvailability;
-use BitBag\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsAvailabilityValidator;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsAwareInterface;
+use Titi60\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
+use Titi60\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsAvailability;
+use Titi60\SyliusBonusPointsPlugin\Validator\Constraints\BonusPointsAvailabilityValidator;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
 use Symfony\Component\Validator\ConstraintValidator;
-use Tests\BitBag\SyliusBonusPointsPlugin\Entity\Order;
+use Tests\Titi60\SyliusBonusPointsPlugin\Entity\Order;
 
 final class BonusPointsAvailabilityValidatorSpec extends ObjectBehavior
 {

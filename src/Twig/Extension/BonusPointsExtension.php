@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Twig\Extension;
+namespace Titi60\SyliusBonusPointsPlugin\Twig\Extension;
 
-use BitBag\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
+use Titi60\SyliusBonusPointsPlugin\Resolver\BonusPointsResolverInterface;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
