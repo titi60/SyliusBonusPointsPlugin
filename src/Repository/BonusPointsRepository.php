@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Titi60\SyliusBonusPointsPlugin\Repository;
+namespace BitBag\SyliusBonusPointsPlugin\Repository;
 
-use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints;
+use BitBag\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints;
 use Sylius\Bundle\ResourceBundle\Doctrine\ORM\EntityRepository;
 use Sylius\Component\Customer\Model\CustomerInterface;
 
-class BonusPointsRepository extends EntityRepositor implements BonusPointsRepositoryInterface
+class BonusPointsRepository extends EntityRepository implements BonusPointsRepositoryInterface
 {
     public function findAllCustomerPointsMovements(CustomerInterface $customer): array
     {
