@@ -8,7 +8,7 @@ use Titi60\SyliusBonusPointsPlugin\Entity\CustomerBonusPoints;
 use Sylius\Bundle\ResourceBundle\Doctrine\ORM\EntityRepository;
 use Sylius\Component\Customer\Model\CustomerInterface;
 
-class BonusPointsRepository extends EntityRepository implements BonusPointsRepositoryInterface
+class BonusPointsRepository extends EntityRepositor implements BonusPointsRepositoryInterface
 {
     public function findAllCustomerPointsMovements(CustomerInterface $customer): array
     {
