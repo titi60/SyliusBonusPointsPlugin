@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace BitBag\SyliusBonusPointsPlugin\Checker\Eligibility;
+namespace Titi60\SyliusBonusPointsPlugin\Checker\Eligibility;
 
-use BitBag\SyliusBonusPointsPlugin\Checker\Rule\BonusPointsStrategyRuleCheckerInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
-use BitBag\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
+use Titi60\SyliusBonusPointsPlugin\Checker\Rule\BonusPointsStrategyRuleCheckerInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyInterface;
+use Titi60\SyliusBonusPointsPlugin\Entity\BonusPointsStrategyRuleInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 use Sylius\Component\Registry\ServiceRegistryInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;
