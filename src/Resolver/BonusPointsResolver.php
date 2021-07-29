@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Titi60\SyliusBonusPointsPlugin\Resolver;
 
 use Titi60\SyliusBonusPointsPlugin\Entity\BonusPoints;
-use Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsRepositoryInterface;
+use Titi60\SyliusBonusPointsPlugin\Repository\BonusPointsRepository;
 use Sylius\Component\Core\Model\Customer;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Customer\Context\CustomerContextInterface;
 
 final class BonusPointsResolver implements BonusPointsResolverInterface
 {
-    /** @var BonusPointsRepositoryInterface */
+    /** @var BonusPointsRepository */
     private $bonusPointsRepo;
 
     /** @var array */
@@ -21,7 +21,7 @@ final class BonusPointsResolver implements BonusPointsResolverInterface
     /** @var CustomerContextInterface */
     private $customerContext;
 
-    public function __construct(BonusPointsRepositoryInterface $bonusPointsRepo, CustomerContextInterface $customerContext)
+    public function __construct(BonusPointsRepository $bonusPointsRepo, CustomerContextInterface $customerContext)
     {
         $this->bonusPointsRepo = $bonusPointsRepo;
         $this->customerContext = $customerContext;
