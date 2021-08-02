@@ -1,5 +1,5 @@
 {
-  "name": "Titi60\/bonus-points-plugin",
+  "name": "titi60/bonus-points-plugin",
   "type": "sylius-plugin",
   "keywords": [
     "sylius",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "require": {
     "php": "^7.4 || ^8.0",
-    "sylius/sylius": "^1.10.0"
+    "sylius/sylius": "^1.10.0 || dev-master"
   },
   "require-dev": {
     "behat/behat": "^3.6.1",
@@ -44,8 +44,8 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Titi60\\SyliusBonusPointsPlugin\\": "src/",
-      "Tests\\Titi60\\SyliusBonusPointsPlugin\\": [
+      "Titi60\SyliusBonusPointsPlugin\\": "src/",
+      "Tests\\Titi60\SyliusBonusPointsPlugin\\": [
         "tests/",
         "tests/Application/src"
       ]
