@@ -29,7 +29,7 @@ final class BonusPointsStrategyRulesEligibilityChecker implements BonusPointsStr
         }
 
         foreach ($bonusPointsStrategy->getRules() as $rule) {
-            if (!$this->isEligibleToRule($product, $rule)) {
+            if (!$this->isEligibleToRule($orderItem, $rule)) {
                 return false;
             }
         }
@@ -43,6 +43,6 @@ final class BonusPointsStrategyRulesEligibilityChecker implements BonusPointsStr
         /** @var BonusPointsStrategyRuleCheckerInterface $checker */
         $checker = $this->ruleRegistry->get((string) $rule->getType());
 
-        return $checker->isEligible($product, $rule->getConfiguration());
+        return $checker->isEligible($orderItem, $rule->getConfiguration());
     }
 }

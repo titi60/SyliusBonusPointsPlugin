@@ -35,7 +35,7 @@ final class DelegatingBonusPointsStrategyCalculator implements DelegatingBonusPo
             return 0;
         }
 
-        $isEligible = $this->bonusPointsStrategyEligibilityChecker->isEligible($product, $bonusPointsStrategy);
+        $isEligible = $this->bonusPointsStrategyEligibilityChecker->isEligible($subject, $bonusPointsStrategy);
 
         return $isEligible ? $calculator->calculate($subject, $bonusPointsStrategy->getCalculatorConfiguration(), $amountToDeduct) : 0;
     }
