@@ -19,6 +19,9 @@ class CustomerBonusPoints implements CustomerBonusPointsInterface
     /** @var Collection<int,BonusPointsInterface> */
     protected $bonusPoints;
 
+    /** @var bool */
+    protected $awaitingProcess = false;
+
     /** @var Collection<int,BonusPointsInterface> */
     protected $bonusPointsUsed;
 
@@ -27,6 +30,17 @@ class CustomerBonusPoints implements CustomerBonusPointsInterface
         $this->bonusPoints = new ArrayCollection();
         $this->bonusPointsUsed = new ArrayCollection();
     }
+
+    public function getAwaitingProcess(): bool
+    {
+        return $this->awaitingProcess;
+    }
+
+    public function setAwaitingProcess(bool $awaitingProcess): void
+    {
+        $this->awaitingProcess = $awaitingProcess;
+    }
+
 
     public function getId(): ?int
     {
@@ -55,6 +69,7 @@ class CustomerBonusPoints implements CustomerBonusPointsInterface
     {
         if (!$this->hasBonusPoints($bonusPoints)) {
             $this->bonusPoints->add($bonusPoints);
+            $this->setAwaitingProcess(true);
         }
     }
 
